@@ -1,0 +1,10 @@
+import {greet} from './actions/greet'
+
+greetReducer(state, action){
+  switch(action.type){
+ case 'greet': 
+ {
+   console.log('hello');
+ }
+  }
+}
